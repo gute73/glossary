@@ -9,7 +9,7 @@
     <?php include '../app/views/layouts/header.php'; ?>
     <div class='container'>
 
-Hello, World!
+      <div class='jumbotron center'><h1>Glossary</h1></div>
 
     </div>
   </body>

@@ -1,0 +1,29 @@
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.7;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo {
+  font-size: 2em;
+  float: left;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}

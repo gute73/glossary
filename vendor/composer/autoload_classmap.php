@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Glossary' => $baseDir . '/app/models/glossary.php',
+    'Term' => $baseDir . '/app/models/term.php',
+    'Translation' => $baseDir . '/app/models/translation.php',
     'User' => $baseDir . '/app/models/user.php',
 );

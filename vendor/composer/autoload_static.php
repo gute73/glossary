@@ -88,6 +88,9 @@ class ComposerStaticInit9c07484ab8539697912f989dcbe3aaba
     );
 
     public static $classMap = array (
+        'Glossary' => __DIR__ . '/../..' . '/app/models/glossary.php',
+        'Term' => __DIR__ . '/../..' . '/app/models/term.php',
+        'Translation' => __DIR__ . '/../..' . '/app/models/translation.php',
         'User' => __DIR__ . '/../..' . '/app/models/user.php',
     );
 

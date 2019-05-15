@@ -22,7 +22,7 @@
 
           <?php include '../app/views/layouts/errors_with_id.php'; ?>
 
-          <form accept-charset='UTF-8' action=          <?php echo "/glossary/public/translations/create/" . $data[0][0] . "/"; ?> method='POST'>
+          <form accept-charset='UTF-8' action=          <?php echo "/public/translations/create/" . $data[0][0] . "/"; ?> method='POST'>
             <label>Language:</label><br>
             <input name='language' maxlength='30' class='form-control'/><br>
             <label>Translation:</label><br>

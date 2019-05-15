@@ -6,4 +6,4 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
 
-<link href="/glossary/public/css/style.css" rel="stylesheet" type="text/css">
+<link href="/public/css/style.css" rel="stylesheet" type="text/css">

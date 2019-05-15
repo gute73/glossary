@@ -23,14 +23,14 @@
         echo "<h1 class='center'>" . $current_user->first_name . " " . $current_user->last_name . "</h1>";
 
         echo "<h3 class='center'>Your Glossaries</h3>";
-        echo "<div class='center'><a href=/glossary/public/glossaries/new/" . strval($current_user->id) . ">Create new glossary</a></div><br>"; 
+        echo "<div class='center'><a href=/public/glossaries/new/" . strval($current_user->id) . ">Create new glossary</a></div><br>"; 
 
 
         echo "<div class='glossariesbox'>";
 
         foreach ($glossaries as $glossary)
         {
-          echo "<div class='glossarybox center'><div class='glossary'><a href=/glossary/public/glossaries/show/" . $glossary->getKey() . ">" . ucfirst($glossary->topic) . "</a></div><div class='ago'>Created " . $glossary->created_at->diffForHumans() . "</div></div>";
+          echo "<div class='glossarybox center'><div class='glossary'><a href=/public/glossaries/show/" . $glossary->getKey() . ">" . ucfirst($glossary->topic) . "</a></div><div class='ago'>Created " . $glossary->created_at->diffForHumans() . "</div></div>";
         }
 
       }

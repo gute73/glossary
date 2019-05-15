@@ -18,7 +18,7 @@ $glossaries = $data;
     <h1 class='center'>Glossaries</h1>
 
     <div class='center search'>
-      <form accept-charset='UTF-8' action='/glossary/public/glossaries/search' method='POST'>
+      <form accept-charset='UTF-8' action='/public/glossaries/search' method='POST'>
         <input name='searchvalue' maxlength='255' class='form-control searchbox'/>
         <button type='submit' name='submit' class='btn btn-primary searchbutton'>Search glossaries</button>
       </form>
@@ -29,7 +29,7 @@ $glossaries = $data;
 
       foreach ($glossaries as $glossary)
       {
-        echo "<div class='glossarybox center'><div class='glossary'><a href=/glossary/public/glossaries/show/" . $glossary->getKey() . ">" . ucfirst($glossary->topic) . "</a></div>";
+        echo "<div class='glossarybox center'><div class='glossary'><a href=/public/glossaries/show/" . $glossary->getKey() . ">" . ucfirst($glossary->topic) . "</a></div>";
         echo "     " . "<div class='glossaryName'>Created by: " . $glossary->user->first_name . " " . $glossary->user->last_name . " " . $glossary->created_at->diffForHumans() . "</div></div><br>";
       }
 

@@ -22,7 +22,7 @@
 
       foreach ($glossary->terms as $term)
       {
-        echo "<div class='term center'><a href=/glossary/public/terms/show/" . $term->getKey() . ">" . $term->term . "</a></div>";
+        echo "<div class='term center'><a href=/public/terms/show/" . $term->getKey() . ">" . $term->term . "</a></div>";
       }
 
       ?>

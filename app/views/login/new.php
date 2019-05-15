@@ -16,7 +16,7 @@
 
         <?php include '../app/views/layouts/errors.php'; ?>
 
-          <form accept-charset='UTF-8' action='/glossary/public/login/create' method='POST'>           
+          <form accept-charset='UTF-8' action='/public/login/create' method='POST'>           
             <label>Email Address:</label><br>
             <input name='email' maxlength='255' class='form-control'/><br>
             <label>Password:</label><br>

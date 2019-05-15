@@ -16,7 +16,7 @@
 
           <?php include '../app/views/layouts/errors.php'; ?>
 
-          <form accept-charset='UTF-8' action='/glossary/public/users/create' method='POST'>
+          <form accept-charset='UTF-8' action='/public/users/create' method='POST'>
             <label>First Name:</label><br>
             <input name='first_name' maxlength='30' class='form-control'/><br>
             <label>Last Name:</label><br>

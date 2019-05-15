@@ -18,9 +18,9 @@
 
       <h3 class='center'><?php echo "Creator: " . $term->glossary->user->first_name . " " . $term->glossary->user->last_name; ?></h3>
     
-      <h3 class='center'><?php echo "Glossary: " . "<a href=/glossary/public/glossaries/show/" . $term->glossary->getKey() . ">" . ucfirst($term->glossary->topic) . "</a>"; ?></h3>
+      <h3 class='center'><?php echo "Glossary: " . "<a href=/public/glossaries/show/" . $term->glossary->getKey() . ">" . ucfirst($term->glossary->topic) . "</a>"; ?></h3>
 
-      <div class='center'><a href=<?php echo "/glossary/public/translations/new/" . $data; ?> >Add a translation</a></div> 
+      <div class='center'><a href=<?php echo "/public/translations/new/" . $data; ?> >Add a translation</a></div> 
 
       <div class='translationslist center'>
       <?php

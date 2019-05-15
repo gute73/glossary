@@ -27,3 +27,44 @@ input {
 .center {
   text-align: center;
 }
+
+.errors {
+  color: red;
+  padding: 10px;
+}
+
+.termsbox, .translationsbox, .glossarybox, .translationslist {
+  margin: 30px;
+}
+
+.term {
+  padding: 15px;
+  font-size: 2em;
+}
+
+.translationsbox {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border: solid 1px black;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+.glossary {
+  font-size: 2em;
+}
+
+.glossaryName {
+  font-size: 1.3em;
+}
+
+.searchbox {
+  margin: auto;
+  width: 150px;
+  display: inline-block;
+}
+
+.searchbutton {
+  display: inline-block;
+}

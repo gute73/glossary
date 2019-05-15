@@ -11,12 +11,12 @@ class Translation extends Model
 
   public function user()
   {
-    return $this->belongsTo('models/user');
+    return $this->belongsTo('User');
   }
 
   public function term()
   {
-    return $this->belongsTo('models/term');
+    return $this->belongsTo('Term');
   }
 
 }

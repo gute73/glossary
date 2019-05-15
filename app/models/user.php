@@ -7,16 +7,17 @@ class User extends Model
 
   protected $table = 'users';
 
+
   protected $fillable = ['first_name', 'last_name', 'username', 'email', 'password_hash'];
 
   public function glossaries()
   {
-    return $this->hasMany('models/glossary');
+    return $this->hasMany('Glossary');
   }
 
   public function translations()
   {
-    return $this->hasMany('models/translation');
+    return $this->hasMany('Translation');
   }
 
 }

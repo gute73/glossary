@@ -11,12 +11,12 @@ class Term extends Model
 
   public function translations()
   {
-    return $this->hasMany('models/translation');
+    return $this->hasMany('Translation');
   }
 
   public function glossary()
   {
-    return $this->belongsTo('models/glossary');
+    return $this->belongsTo('Glossary');
   }
 
 }

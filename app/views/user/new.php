@@ -14,7 +14,9 @@
       <div class='row'>
         <div class='col-md-6 col-md-offset-3'>
 
-          <form accept-charset='UTF-8' action='../user/build' method='POST'>
+          <?php include '../app/views/layouts/errors.php'; ?>
+
+          <form accept-charset='UTF-8' action='/glossary/public/users/create' method='POST'>
             <label>First Name:</label><br>
             <input name='first_name' maxlength='30' class='form-control'/><br>
             <label>Last Name:</label><br>
@@ -25,8 +27,6 @@
             <input name='email' maxlength='255' class='form-control'/><br>
             <label>Password:</label><br>
             <input name='password' maxlength='60' class='form-control'/><br>
-            <label>Password Confirmation:</label><br>
-            <input name='password_confirmation' maxlength='60' class='form-control'/><br>
             <button type='submit' name='submit' class='btn btn-primary'>Sign up</button>
           </form>
 

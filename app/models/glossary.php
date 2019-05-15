@@ -11,12 +11,12 @@ class Glossary extends Model
 
   public function terms()
   {
-    return $this->hasMany('models/term');
+    return $this->hasMany('Term');
   }
 
   public function user()
   {
-    return $this->belongsTo('models/user');
+    return $this->belongsTo('User');
   }
 
 }

@@ -16,7 +16,7 @@
 
           <?php include '../app/views/layouts/errors_with_id.php'; ?>
 
-          <form accept-charset='UTF-8' action=          <?php echo "/public/glossaries/create/" . $data[0][0]. "/"; ?> method='POST'>
+          <form accept-charset='UTF-8' action=          <?php echo "/public/glossaries/create/" . $data[0][0]; ?> method='POST'>
             <label>Topic:</label><br>
             <input name='topic' maxlength='30' class='form-control'/><br>
             <label>Term 1 (Required):</label><br>
